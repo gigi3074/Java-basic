@@ -1,4 +1,4 @@
-public class Main {
+public class Ex04 {
     public static void main(String[] args) {
         /*
             중복으로 풀어야되는 문제도 있기에
