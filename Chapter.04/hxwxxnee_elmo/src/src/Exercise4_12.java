@@ -17,7 +17,7 @@ public class Exercise4_12 {
         for(int i=2; i<9; i+=3){
             for(int j=1; j<4; j++){
                 for(int k=0; k<3; k++){
-                    if(i+k < 10){
+                    if(i+k<10){
                         System.out.print(i+k+"*"+j+"="+((i+k)*j)+"\t");
                     }
                 }
@@ -25,6 +25,25 @@ public class Exercise4_12 {
             }
             System.out.println();
         }
+
+        System.out.println("--------------------------------------");
+
+        for(int j=2; j<=9; j+=3) {
+            for (int i=1; i<=3; i++) {
+                if(j==8){
+                    System.out.printf("%d x %d = %-3d %d x %d = %-3d%n", j, i, j * i, j + 1, i, (j + 1) * i);
+                }else {
+                    System.out.printf("%d x %d = %-3d %d x %d = %-3d %d x %d = %-3d%n", j, i, j * i, j + 1, i, (j + 1) * i, j + 2, i, (j + 2) * i);
+                }
+            }
+            System.out.println();
+        }
+
+
+
+
+
+
 
     }
 }

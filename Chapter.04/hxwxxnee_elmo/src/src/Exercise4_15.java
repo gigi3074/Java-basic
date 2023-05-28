@@ -6,7 +6,6 @@ public class Exercise4_15 {
             str += number%10;
             number/=10;
         }
-
         return Integer.parseInt(str);
     }
     public static void main(String[] args) {
@@ -15,16 +14,20 @@ public class Exercise4_15 {
         //[Hint] 나머지 연산자를 이용하시오.
 
         int number = 12321;
-        int tmp = number;
 
-        int result = 0;
-        result = reverseNumber(number);
+//        int reverse = reverseNumber(number);
+//        System.out.println("reverse: " + reverse);
 
-        while (tmp!=0){
+        int tmpNum = number;
+        int reverse = 0;
 
+        while (tmpNum!=0){
+            reverse = reverse*10 + tmpNum%10;
+            tmpNum/=10;
         }
+        System.out.println("#reverse: " + reverse);
 
-        if(number == result) {
+        if(number == reverse) {
             System.out.println(number + " 는 회문수 입니다.");
         }else {
             System.out.println(number + " 는 회문수가 아닙니다.");
