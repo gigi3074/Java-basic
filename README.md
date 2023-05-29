@@ -18,7 +18,7 @@
 * 패키지 안에서 파일을 어떻게 사용할지는 각자 자유롭게 하세요.
     * 참고 겸 모든 파일 세팅을 위해 우선 제가 파일을 만들어습니다.
     * 꼭 만들어진 방식으로 하실 필요는 없습니다. 
-##### 예) 저의 경우 폴더 3개로 나누지 않고 파일 3개 만들어서 진행할 예정입니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter.04/gigi3074/Chapter04.md, Exercise.java, Ex04.java
+##### 예) 저의 경우 폴더 3개로 나누지 않고 파일 3개 만들어서 진행할 예정입니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chapter.04/gigi3074/Chapter04.md, Exercise.java, Ex05.java
 
 
 ## 기타

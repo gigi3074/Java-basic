@@ -55,6 +55,11 @@ public class Exercise {
         System.out.println(totalSum);
 
         /*
+            4 - 4
+
+         */
+
+        /*
             4-5
             다음의 for문을 while문으로 변경하시오.
             for(int i=0; i<=10; i++) {
@@ -71,8 +76,15 @@ public class Exercise {
             while (x<=w){
                 x++;
                 System.out.print("*");
-                System.out.println();
             }
+            System.out.println();
+        }
+
+        for(int i=0; i<=10; i++) {
+            for(int j=0; j<=i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
 
         /*
@@ -163,10 +175,12 @@ public class Exercise {
          */
 
         for (int i = 2; i <= 9; i++){
-            for (int j = 1; j <= 3; j++){
-                System.out.println(i +" * "+ j +" = "+ i*j);
+            for (int j = 1; j <= 3; j++) {
+                System.out.println(i + " * " + j + " = " + i * j+"\t");
+                System.out.print("\t");
             }
             System.out.println();
+            if(i%3==0) System.out.println();
         }
         /*
          4- 13
@@ -179,6 +193,9 @@ public class Exercise {
         // 반복문과 charAt(int i)를 이용해서 문자열의 문자를 // 하나씩 읽어서 검사한다.
         for(int i=0; i < strValue.length() ;i++) {
             ch = strValue.charAt(i);
+//            if(strValue.charAt(i) < 48 || strValue.charAt(i) > 58){
+//                isNumber = false;
+//            }
             if (ch < 48 || ch > 58){
                 isNumber = false;
             }
@@ -190,7 +207,7 @@ public class Exercise {
         }
 
         /*
-            4-14
+            4 - 14
             다음은 숫자맞추기 게임을 작성한 것이다.
             1과 100사이의 값을 반복적으로 입력 해서 컴퓨터가 생각한 값을 맞추면 게임이 끝난다.
             사용자가 값을 입력하면, 컴퓨터는 자 신이 생각한 값과 비교해서 결과를 알려준다.
