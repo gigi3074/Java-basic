@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Chapter.06.iml" filepath="$PROJECT_DIR$/.idea/Chapter.06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gigi3074/연습문제/연습문제.iml" filepath="$PROJECT_DIR$/gigi3074/연습문제/연습문제.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gigi3074/예제문제/예제문제.iml" filepath="$PROJECT_DIR$/gigi3074/예제문제/예제문제.iml" />
+    </modules>
+  </component>
+</project>
